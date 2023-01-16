@@ -1,11 +1,82 @@
 # my_Markdown
 Resources that I usually use here in Markdown GitHub :)
 
+### Basic writing and formatting syntax
+#### Headings
+
+To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.
+
+# The largest heading
+## The second largest heading
+###### The smallest heading
+
+#### Styling text
+You can indicate emphasis with bold, italic, strikethrough, subscript, or superscript text in comment fields and .md files.
+
+Style	Syntax	Keyboard shortcut	Example	Output
+Bold	** ** or __ __	Command+B (Mac) or Ctrl+B (Windows/Linux)	**This is bold text**	This is bold text
+Italic	* * or _ _     	Command+I (Mac) or Ctrl+I (Windows/Linux)	*This text is italicized*	This text is italicized
+Strikethrough	~~ ~~		~~This was mistaken text~~	This was mistaken text
+Bold and nested italic	** ** and _ _		**This text is _extremely_ important**	This text is extremely important
+All bold and italic	*** ***		***All this text is important***	All this text is important
+Subscript	<sub> </sub>		<sub>This is a subscript text</sub>	This is a subscript text
+Superscript	<sup> </sup>		<sup>This is a superscript text</sup>	This is a superscript text
+
+### Quoting code
+You can call out code or a command within a sentence with single backticks.  
+The text within the backticks will not be formatted.  
+You can also press the Command+E (Mac) or Ctrl+E (Windows/Linux) keyboard shortcut  
+to insert the backticks for a code block within a line of Markdown.
+
+Use `git status` to list all new or modified files that haven't yet been committed.
+Rendered inline code block
+
+To format code or text into its own distinct block, use triple backticks.
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+
+Supported color models
+In issues, pull requests, and discussions, you can call out colors within a sentence by using backticks. A supported color model within backticks will display a visualization of the color.
+
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+Rendered supported color model.
+
+Here are the currently supported color models.
+
+Color	Syntax	Example	Output
+HEX	`#RRGGBB`	`#0969DA`	Rendered supported color model in HEX format.
+RGB	`rgb(R,G,B)`	`rgb(9, 105, 218)`	Rendered supported color model in RGB format.
+HSL	`hsl(H,S,L)`	`hsl(212, 92%, 45%)`	Rendered supported color model in HSL format.
+
+
+
+
+### Adding a quote
+Markdown has many other options for formatting your content.  
+Here, you'll add a horizontal rule to divide your page and a blockquote to format your favorite quote.
+
+> QUOTE
+
+### Align
+<p align="center">
+  <a href="https://rahuldkjain.github.io/gh-profile-readme-generator">
+    <img alt="GitHub Profile Readme Generator" src="./src/images/mdg.png" width="60" />
+  </a>
+</p>
+
+
+### Bottons
+
+[`CONTRIBUTING`](CONTRIBUTING.md)
+
+With table...
 
 ### Code
-
-
-
 
 ```sql
   SELECT Put you code
@@ -185,7 +256,7 @@ CODE MARKDOWN:
 </details>
 
 
-
+https://docs.github.com/en/get-started/writing-on-github
 https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections
 
 ---
